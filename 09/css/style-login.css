@@ -1,0 +1,92 @@
+html{
+    height: 100%;
+}
+
+body{
+	font-family: "メイリオ", Meiryo, Osaka, sans-serif;
+	line-height: 1.5;
+	font-size: 14px;
+    width: 1100px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../jpg/%E8%AA%AD%E6%9B%B8%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.jpg);
+    background-size: 10%;
+}
+
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.contact{
+    padding-top:70px;
+    height: 100%;
+    background-color: oldlace;
+}
+
+.Contact-word{text-align: center;
+              font-size: 30px;
+              margin-bottom: 30px;}
+
+.Contact-form{margin:auto;
+              width: 800px;
+              display: block;
+}
+
+.Contact-form table{border-collapse:collapse;}
+
+tbody tr{display: table-row;
+         width;640px;
+         border-top:groove 2px;
+         border-bottom:groove 2px;}
+
+tbody th{width:240px;
+        text-align:left;
+        padding-right:64px;
+        padding-left:16px;
+        display: table-cell;
+        border-right:groove 1px;
+        vertical-align:middle;}
+
+tbody td{width:400px;
+         padding-top:8px;
+         padding-bottom:8px;
+         padding-left:8px;
+         display: table-cell;}
+
+.input{width:328px;
+       height:36px;
+    font-size:1rem;}
+
+textarea{width:328;
+        font-size:1rem;}
+
+
+.submit{margin:30px auto;
+        text-align: center;}
+
+.submit input{margin:0 auto;
+             font-size:18px;
+             width: 300px;
+             height:60px;
+             color: #FFFFFF;
+             background-color: gainsboro;}
+
+.submit input:hover{background-color: cadetblue;}
+
+.navbar-footer{font-size: 14px;
+               }
+
+.button{padding: 5px;
+        margin-left: 5px;
+        margin-bottom: 10px;}
+
+
+/*
+---------------------*/
